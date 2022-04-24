@@ -11,9 +11,7 @@
 int main() {
 
 	char targetIp[20] = "127.0.0.1";
-	unsigned short targetPort = 8000u;
-
-	//scanf("%s %u", target_ip, &target_port);
+	unsigned short targetPort = 8000;
 
 	WSADATA wsa;
 	WSAStartup(MAKEWORD(2, 2), &wsa);
