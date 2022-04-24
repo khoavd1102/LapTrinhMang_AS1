@@ -10,8 +10,6 @@ int main() {
 
 	unsigned short listentPort = 8000;
 
-	//scanf("%u", &listent_port);
-
 	SOCKET serverSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
 	SOCKADDR_IN addr;
